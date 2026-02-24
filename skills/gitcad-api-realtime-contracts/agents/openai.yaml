@@ -1,0 +1,4 @@
+interface:
+  display_name: "gitCAD API Realtime Contracts"
+  short_description: "Define stable API, Query keys, and realtime events"
+  default_prompt: "Use $gitcad-api-realtime-contracts to add API endpoints, query key factories, pagination contracts, and realtime event schemas."

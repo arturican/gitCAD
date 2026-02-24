@@ -1,0 +1,4 @@
+interface:
+  display_name: "gitCAD Viewer Annotations"
+  short_description: "Build PDF/3D viewer annotation workflows in gitCAD"
+  default_prompt: "Use $gitcad-viewer-annotations to implement PDF or 3D annotation UX with normalized coordinates and camera pose support."

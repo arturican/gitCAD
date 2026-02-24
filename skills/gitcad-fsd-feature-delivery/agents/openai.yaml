@@ -1,0 +1,4 @@
+interface:
+  display_name: "gitCAD FSD Feature Delivery"
+  short_description: "Implement gitCAD features with strict FSD boundaries"
+  default_prompt: "Use $gitcad-fsd-feature-delivery to implement a feature with FSD layering, Query, Zustand, and zod DTO validation."
