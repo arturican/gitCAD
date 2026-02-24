@@ -1,0 +1,28 @@
+{
+  "name": "gitcad",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "pnpm build && vitest run",
+    "test:watch": "vitest",
+    "mcp:stdio": "node dist/mcp/src/server.js stdio",
+    "mcp:http": "node dist/mcp/src/server.js http",
+    "mcp-smoke": "pnpm build && vitest run mcp/test/mcp-smoke.test.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0",
+    "dotenv": "^16.6.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

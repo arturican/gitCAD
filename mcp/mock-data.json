@@ -1,0 +1,81 @@
+{
+  "repositories": [
+    {
+      "id": "repo_001",
+      "name": "Hydraulic Press Assembly",
+      "projectId": "project_01",
+      "updatedAt": "2026-02-20T10:00:00.000Z"
+    },
+    {
+      "id": "repo_002",
+      "name": "Pump Housing Revamp",
+      "projectId": "project_01",
+      "updatedAt": "2026-02-21T11:30:00.000Z"
+    }
+  ],
+  "treeItems": [
+    {
+      "id": "tree_001",
+      "repoId": "repo_001",
+      "name": "drawings",
+      "path": "/drawings",
+      "type": "folder"
+    },
+    {
+      "id": "tree_002",
+      "repoId": "repo_001",
+      "name": "press_frame_v3.pdf",
+      "path": "/drawings/press_frame_v3.pdf",
+      "type": "file",
+      "size": 183240
+    }
+  ],
+  "revisions": [
+    {
+      "id": "rev_001",
+      "fileId": "tree_002",
+      "authorId": "user_07",
+      "label": "R3",
+      "createdAt": "2026-02-21T12:00:00.000Z",
+      "status": "approved"
+    }
+  ],
+  "previews": [
+    {
+      "revisionId": "rev_001",
+      "previewUrl": "https://example.local/revisions/rev_001/preview",
+      "mimeType": "application/pdf",
+      "contentLength": 183240
+    }
+  ],
+  "reviews": [
+    {
+      "id": "review_001",
+      "repoId": "repo_001",
+      "title": "Frame thickness check",
+      "description": "Validate rib thickness against load case LC-42",
+      "status": "open",
+      "createdBy": "user_02",
+      "createdAt": "2026-02-22T08:30:00.000Z",
+      "updatedAt": "2026-02-22T08:30:00.000Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "comment_001",
+      "reviewId": "review_001",
+      "message": "Increase thickness near joint B by 2mm.",
+      "status": "open",
+      "resolved": false,
+      "createdBy": "user_09",
+      "createdAt": "2026-02-22T09:00:00.000Z",
+      "entityType": "pdf",
+      "entityId": "tree_002",
+      "anchor": {
+        "page": 3,
+        "x": 0.52,
+        "y": 0.41
+      }
+    }
+  ]
+}
